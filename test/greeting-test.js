@@ -4,7 +4,7 @@ const supertest = require('supertest');
 
 const app = require('../app');
 
-describe('Alan's greeting route', () => {
+describe('push Test greeting route', () => {
   it('with no query param', async () => {
     const { body } = await supertest(app)
       .get('/api/greeting')
